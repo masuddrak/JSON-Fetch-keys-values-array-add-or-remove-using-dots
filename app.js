@@ -14,6 +14,14 @@ const student2=JSON.parse(student1)
 
 
 // fetch using
-fetch('url')
-.then(res=>res.json())
-.then(data=>console.log(data))
+// fetch('url')
+// .then(res=>res.json())
+// .then(data=>console.log(data))
+
+
+
+// object keys && values
+const keys=Object.keys(student)
+const values=Object.values(student)
+console.log(keys)
+console.log(values)
